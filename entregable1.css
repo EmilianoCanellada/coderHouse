@@ -22,3 +22,10 @@ button{
     background-color: greenyellow;
 
 }
+#resultado{
+    text-align: center;
+    background-color: darkgreen;
+}
+h3{
+    text-align: center;
+}
