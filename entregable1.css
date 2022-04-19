@@ -24,8 +24,11 @@ button{
 }
 #resultado{
     text-align: center;
-    background-color: darkgreen;
+    background-color: greenyellow;
 }
 h3{
+    text-align: center;
+}
+.table{
     text-align: center;
 }
