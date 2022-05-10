@@ -42,4 +42,6 @@ document.getElementById('calcular').addEventListener('click', () =>{      //Elem
         resultadoBD.push(resultado) //Agrego al arrays resultadoBD los datos del objeto que creamos arriba (no lleva "var" ni "let" porque es una variable global)
         document.getElementById("tabla").innerHTML += '<tbody><td>'+resultado.numero1+'</td><td>'+resultado.operacion+'</td><td>'+resultado.numero2+'</td><td>'+resultado.resultado+'</td></tbody>';
     //Detecta la tabla e inserta html con etiquetas propias de una tabla ("https://getbootstrap.com/docs/4.0/content/tables/")
-    };
+        localStorage.setItem("RESULTADOS ANTERIORES", JSON.stringify(resultadoBD))
+
+};
